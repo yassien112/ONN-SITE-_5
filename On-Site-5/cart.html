@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart section</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" href="#">furni.</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link active text-white" href="index.html" id="nav">Home</a>
+                        <a class="nav-link text-muted" href="shop.html">shop</a>
+                        <a class="nav-link text-muted" href="about.html">about us</a>
+                        <a class="nav-link text-muted" href="services.html">services</a>
+                        <a href="blog.html" class="nav-link text-muted">blog</a>
+                        <a href="contact.html" class="nav-link text-muted">contact us</a>
+                        <a href="user.html"><img src="images/user.svg" class="nav-link" /></a>
+                        <a href="cart.html"><img src="images/cart.svg" class="nav-link" /></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class="hero">
+            <div class="content">
+                <h2 class="text-white fw-bolder">cart</h2>
+                <p class="text-muted">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br />
+                    maxime ab esse veritatis labore hic voluptatibus sit.
+                </p>
+                <button class="btn0">shop now</button>
+                <button class="btn1">explore</button>
+            </div>
+            <div class="img">
+                <img src="images/couch.png" />
+            </div>
+        </section>
+        <!-- Cart Section -->
+        <section class="cart">
+            <div class="container">
+                <table class="cart-table">
+                    <thead>
+                        <tr>
+                            <th>Image</th>
+                            <th>Product</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Total</th>
+                            <th>Remove</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <!-- Product Row -->
+                        <tr>
+                            <td>
+                                <img src="images/product-1.png" alt="Product 1">
+                            </td>
+                            <td>Product 1</td>
+                            <td>$49.00</td>
+                            <td>
+                                <div class="quantity">
+                                    <button>-</button>
+                                    <input type="number" value="1">
+                                    <button>+</button>
+                                </div>
+                            </td>
+                            <td>$49.00</td>
+                            <td>
+                                <button class="remove">×</button>
+                            </td>
+                        </tr>
+
+                        <!-- Product Row -->
+                        <tr>
+                            <td>
+                                <img src="images/product-2.png" alt="Product 2">
+                            </td>
+                            <td>Product 2</td>
+                            <td>$49.00</td>
+                            <td>
+                                <div class="quantity">
+                                    <button>-</button>
+                                    <input type="number" value="1">
+                                    <button>+</button>
+                                </div>
+                            </td>
+                            <td>$49.00</td>
+                            <td>
+                                <button class="remove">×</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <!-- Cart Bottom Section -->
+        <section class="cart-bottom">
+            <div class="container cart-flex">
+
+                <!-- Left Side -->
+                <div class="cart-left">
+                    <div class="cart-buttons">
+                        <button class="dark-btn">Update Cart</button>
+                        <button class="dark-btn">Continue Shopping</button>
+                    </div>
+
+                    <div class="coupon">
+                        <h3>Coupon</h3>
+                        <p>Enter your coupon code if you have one.</p>
+
+                        <div class="coupon-box">
+                            <input type="text" placeholder="Coupon Code">
+                            <button class="dark-btn">Apply Coupon</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Side -->
+                <div class="cart-right">
+                    <h2>CART TOTALS</h2>
+
+                    <div class="totals">
+                        <div class="row">
+                            <span>Subtotal</span>
+                            <span>$230.00</span>
+                        </div>
+
+                        <div class="row">
+                            <span>Total</span>
+                            <span>$230.00</span>
+                        </div>
+                    </div>
+
+                    <button class="checkout-btn">
+                        Proceed To Checkout
+                    </button>
+                </div>
+
+            </div>
+        </section>
+        <section class="footer-top">
+
+            <div class="subscribe-content">
+
+                <!-- الفورم -->
+                <form class="simple-form">
+
+                    <div class="input-group">
+                        <input type="text" required>
+                        <label>Your Name</label>
+                    </div>
+
+                    <div class="input-group">
+                        <input type="email" required>
+                        <label>Your Email</label>
+                    </div>
+
+                    <button type="submit" class="simple-btn">Subscribe</button>
+
+                </form>
+
+
+
+                <!-- الصورة -->
+                <div class="subscribe-image">
+                    <img src="images/sofa.png" alt="Chair Image">
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ===== Footer Section ===== -->
+        <footer class="main-footer">
+
+            <div class="footer-container">
+
+                <div class="footer-about">
+                    <h2>Furni.</h2>
+                    <p>
+                        Donec facilisis quam ut purus rutrum lobortis.
+                        Donec vitae odio quis nisl dapibus malesuada.
+                    </p>
+                </div>
+
+                <div class="footer-links">
+                    <ul>
+                        <li>About us</li>
+                        <li>Services</li>
+                        <li>Blog</li>
+                        <li>Contact us</li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <ul>
+                        <li>Support</li>
+                        <li>Knowledge base</li>
+                        <li>Live chat</li>
+                        <li>Privacy policy</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </footer>
+    </main>
+
+
+
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

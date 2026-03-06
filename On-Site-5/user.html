@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkout section</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" href="#">furni.</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link active text-white" href="index.html" id="nav">Home</a>
+                        <a class="nav-link text-muted" href="shop.html">shop</a>
+                        <a class="nav-link text-muted" href="about.html">about us</a>
+                        <a class="nav-link text-muted" href="services.html">services</a>
+                        <a href="blog.html" class="nav-link text-muted">blog</a>
+                        <a href="contact.html" class="nav-link text-muted">contact us</a>
+                        <a href="user.html"><img src="images/user.svg" class="nav-link" /></a>
+                        <a href="cart.html"><img src="images/cart.svg" class="nav-link" /></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class="hero">
+            <div class="content">
+                <h2 class="text-white fw-bolder">checkout</h2>
+                <p class="text-muted">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br />
+                    maxime ab esse veritatis labore hic voluptatibus sit.
+                </p>
+                <button class="btn0">shop now</button>
+                <button class="btn1">explore</button>
+            </div>
+            <div class="img">
+                <img src="images/couch.png" />
+            </div>
+        </section>
+        <section class="checkout">
+            <div class="container">
+
+                <div class="checkout-wrapper">
+
+                    <!-- LEFT -->
+                    <div class="billing">
+                        <h2>Billing Details</h2>
+
+                        <form>
+                            <label>Country *</label>
+                            <select>
+                                <option>Select a country</option>
+                            </select>
+
+                            <div class="row-2">
+                                <div>
+                                    <label>First Name *</label>
+                                    <input type="text">
+                                </div>
+                                <div>
+                                    <label>Last Name *</label>
+                                    <input type="text">
+                                </div>
+                            </div>
+
+                            <label>Company Name</label>
+                            <input type="text">
+
+                            <label>Address *</label>
+                            <input type="text" placeholder="Street address">
+                            <input type="text" placeholder="Apartment, suite, unit etc. (optional)">
+
+                            <div class="row-2">
+                                <div>
+                                    <label>State *</label>
+                                    <input type="text">
+                                </div>
+                                <div>
+                                    <label>Postal Code *</label>
+                                    <input type="text">
+                                </div>
+                            </div>
+
+                            <div class="row-2">
+                                <div>
+                                    <label>Email *</label>
+                                    <input type="email">
+                                </div>
+                                <div>
+                                    <label>Phone *</label>
+                                    <input type="text">
+                                </div>
+                            </div>
+
+                            <textarea placeholder="Order Notes..."></textarea>
+                        </form>
+                    </div>
+
+                    <!-- RIGHT -->
+                    <div class="order-area">
+
+                        <div class="coupon">
+                            <h3>Coupon Code</h3>
+                            <p>Enter your coupon code if you have one.</p>
+
+                            <div class="coupon-row">
+                                <input type="text" placeholder="Coupon Code">
+                                <button>Apply</button>
+                            </div>
+                        </div>
+
+                        <div class="order-box">
+                            <h3>Your Order</h3>
+
+                            <div class="order-line header">
+                                <span>Product</span>
+                                <span>Total</span>
+                            </div>
+
+                            <div class="order-line">
+                                <span>T-Shirt × 1</span>
+                                <span>$250.00</span>
+                            </div>
+
+                            <div class="order-line">
+                                <span>Polo × 1</span>
+                                <span>$100.00</span>
+                            </div>
+
+                            <div class="order-line">
+                                <span>Cart Subtotal</span>
+                                <span>$350.00</span>
+                            </div>
+
+                            <div class="order-line total">
+                                <span>Order Total</span>
+                                <span>$350.00</span>
+                            </div>
+
+                            <div class="payments">
+                                <label><input type="radio" name="pay"> Direct Bank Transfer</label>
+                                <label><input type="radio" name="pay"> Cheque Payment</label>
+                                <label><input type="radio" name="pay"> Paypal</label>
+                            </div>
+
+                            <a href="order.html" class="btn place-btn">place order</a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="footer-top">
+
+            <div class="subscribe-content">
+
+                <!-- الفورم -->
+                <form class="simple-form">
+
+                    <div class="input-group">
+                        <input type="text" required>
+                        <label>Your Name</label>
+                    </div>
+
+                    <div class="input-group">
+                        <input type="email" required>
+                        <label>Your Email</label>
+                    </div>
+
+                    <button type="submit" class="simple-btn">Subscribe</button>
+
+                </form>
+
+
+
+                <!-- الصورة -->
+                <div class="subscribe-image">
+                    <img src="images/sofa.png" alt="Chair Image">
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ===== Footer Section ===== -->
+        <footer class="main-footer">
+
+            <div class="footer-container">
+
+                <div class="footer-about">
+                    <h2>Furni.</h2>
+                    <p>
+                        Donec facilisis quam ut purus rutrum lobortis.
+                        Donec vitae odio quis nisl dapibus malesuada.
+                    </p>
+                </div>
+
+                <div class="footer-links">
+                    <ul>
+                        <li>About us</li>
+                        <li>Services</li>
+                        <li>Blog</li>
+                        <li>Contact us</li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li>Support</li>
+                        <li>Knowledge base</li>
+                        <li>Live chat</li>
+                        <li>Privacy policy</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
